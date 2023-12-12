@@ -1,9 +1,5 @@
 # Deploying a Java Application with Maven, SonarQube, Docker, Nexus, and Helm on Kubernetes
 
-# Overview
-
-## This guide demonstrates the end-to-end process of deploying a Java application using Maven, SonarQube, Docker, Nexus, and Helm on a Kubernetes cluster.
-
 # Prerequisites
 
 ## - Docker Hub Desktop For ( docker - docker-compose - kubernetes ) commands
