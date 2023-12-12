@@ -65,7 +65,9 @@ docker push 127.0.0.1:8082/my-java-app:1.0
     1 - Create Chart.yaml for Describes the chart, including name, version, description, and other metadata.
     
     2 - Create values.yaml for Centralized location for default values that can be overridden during deployment And Facilitates customization for different environments without modifying templates.
+    
     3 - Create deployment.yaml inside tempaltes Folder for Defines how the application should be deployed, including replicas, containers, and volumes
+    
     4 - Create service.yaml inside tempaltes Folder For Defines how the application can be accessed within the Kubernetes cluster
 
 
