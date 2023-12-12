@@ -40,6 +40,8 @@ mvn clean install
 ```bash
 mvn sonar:sonar -Dsonar.projectKey=my-java-app -Dsonar.host.url=http://127.0.0.1:9000 -Dsonar.login=token
 ```
+![image](https://github.com/amrashraf-web/Maven_Demo_Task_1/assets/82893114/f49283e1-83ab-48ca-97b0-bca16b0ddb41)
+
 
 # Docker Image Build and Nexus Push
 
@@ -55,6 +57,10 @@ docker build -t 127.0.0.1:8082/my-java-app:1.0 .
 docker login 127.0.0.1:8082 -u username -p password
 docker push 127.0.0.1:8082/my-java-app:1.0
 ```
+
+![image](https://github.com/amrashraf-web/Maven_Demo_Task_1/assets/82893114/412ba87d-133d-4e29-aedb-49fe4e0bc5b0)
+
+
 
 # Helm Chart Creation
 
@@ -86,6 +92,7 @@ kubectl logs pod_name
 # Expected Result: "Hello World!"
 
 
+![image](https://github.com/amrashraf-web/Maven_Demo_Task_1/assets/82893114/27237ddb-6936-4967-a7ba-84c7c9760fb6)
 
 
 
