@@ -2,7 +2,7 @@
 
 # Prerequisites
 
-## - Docker Hub Desktop For ( docker - docker-compose - kubernetes ) commands
+## - Docker Hub Desktop For ( docker & docker-compose & kubernetes ) commands
 ## - Helm
 ## - Maven
 
@@ -62,11 +62,10 @@ docker push 127.0.0.1:8082/my-java-app:1.0
 
 ### Step 1 : Create a mycharts folder with necessary YAML files
 
-    1 - Create Folder mycharts and inside it i create my yaml files
-    2 - Create Chart.yaml for Describes the chart, including name, version, description, and other metadata.
-    3 - Create values.yaml for Centralized location for default values that can be overridden during deployment And Facilitates customization for different environments without modifying templates.
-    4 - Create deployment.yaml inside tempaltes Folder for Defines how the application should be deployed, including replicas, containers, and volumes
-    5 - Create service.yaml inside tempaltes Folder For Defines how the application can be accessed within the Kubernetes cluster
+1 - Create Chart.yaml for Describes the chart, including name, version, description, and other metadata.
+2 - Create values.yaml for Centralized location for default values that can be overridden during deployment And Facilitates customization for different environments without modifying templates.
+3 - Create deployment.yaml inside tempaltes Folder for Defines how the application should be deployed, including replicas, containers, and volumes
+4 - Create service.yaml inside tempaltes Folder For Defines how the application can be accessed within the Kubernetes cluster
 
 
 # Deployment with Helm on Kubernetes
