@@ -31,7 +31,7 @@ mvn archetype:generate -DgroupId=com.example -DartifactId=my-java-app -Darchetyp
 mvn clean install
 ```
 
-# Step 2 : Integrate with SonarQube
+### Step 2 : Integrate with SonarQube
 
 ```bash
 mvn sonar:sonar -Dsonar.projectKey=my-java-app -Dsonar.host.url=http://127.0.0.1:9000 -Dsonar.login=token
