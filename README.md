@@ -12,8 +12,9 @@
 
 # Infrastructure Setup
 
+### Deploy SonarQube, Postgres, and Nexus
+
 ```bash
-# Deploy SonarQube, Postgres, and Nexus
 docker-compose up -d
 ```
 
