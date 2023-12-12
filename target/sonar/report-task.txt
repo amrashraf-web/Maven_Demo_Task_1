@@ -1,0 +1,6 @@
+projectKey=my-java-app
+serverUrl=http://127.0.0.1:9000
+serverVersion=10.3.0.82913
+dashboardUrl=http://127.0.0.1:9000/dashboard?id=my-java-app
+ceTaskId=AYxbN-9TXyptPIZNsH1k
+ceTaskUrl=http://127.0.0.1:9000/api/ce/task?id=AYxbN-9TXyptPIZNsH1k

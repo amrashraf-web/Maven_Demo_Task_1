@@ -1,0 +1,10 @@
+image:
+  repository: 127.0.0.1:8082/my-java-app:1.0
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
+
+secret:
+  name: mysecret
+  usernameKey: admin
+  passwordKey: admin
