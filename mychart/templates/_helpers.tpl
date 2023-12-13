@@ -1,5 +1,3 @@
-# my-java-app-chart/templates/_helpers.tpl
-
 {{/* Define a default `fullname` template */}}
 {{- define "mychart.fullname" -}}
 {{- printf "%s-%s" .Release.Name .Chart.Name }}
